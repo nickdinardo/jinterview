@@ -4,8 +4,8 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
+import alten.jinterview.exceptions.InvalidInputException;
 import alten.jinterview.impl.Checker;
-import alten.jinterview.impl.exceptions.InvalidInputException;
 import alten.jinterview.interfaces.IChecker;
 
 public class CheckerTest {

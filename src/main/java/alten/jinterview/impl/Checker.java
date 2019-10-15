@@ -2,7 +2,7 @@ package alten.jinterview.impl;
 
 import java.util.Arrays;
 
-import alten.jinterview.impl.exceptions.InvalidInputException;
+import alten.jinterview.exceptions.InvalidInputException;
 import alten.jinterview.interfaces.IChecker;
 
 public class Checker implements IChecker {

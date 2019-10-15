@@ -1,6 +1,6 @@
 package alten.jinterview.interfaces;
 
-import alten.jinterview.impl.exceptions.InvalidInputException;
+import alten.jinterview.exceptions.InvalidInputException;
 
 public interface IChecker {
 

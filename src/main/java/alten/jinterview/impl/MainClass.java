@@ -1,6 +1,6 @@
 package alten.jinterview.impl;
 
-import alten.jinterview.impl.exceptions.InvalidInputException;
+import alten.jinterview.exceptions.InvalidInputException;
 import alten.jinterview.interfaces.IChecker;
 
 public class MainClass 
