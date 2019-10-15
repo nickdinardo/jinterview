@@ -1,6 +1,7 @@
-package alten.jinterview;
+package alten.jinterview.impl;
 
-import alten.jinterview.exceptions.InvalidInputException;
+import alten.jinterview.impl.exceptions.InvalidInputException;
+import alten.jinterview.interfaces.IChecker;
 
 public class MainClass 
 
@@ -13,7 +14,7 @@ public class MainClass
         int lowerBound = -10;
 		int upperBound = 50;
 		
-		Checker checker = new Checker(lowerBound, upperBound);
+		IChecker checker = new Checker(lowerBound, upperBound);
 		
 		try {
 			if(checker.isValid(values)) {

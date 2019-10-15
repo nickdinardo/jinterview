@@ -1,4 +1,4 @@
-package alten.jinterview.exceptions;
+package alten.jinterview.impl.exceptions;
 
 public class InvalidInputException extends Exception {
 

@@ -1,10 +1,11 @@
-package alten.jinterview;
+package alten.jinterview.impl;
 
 import java.util.Arrays;
 
-import alten.jinterview.exceptions.InvalidInputException;
+import alten.jinterview.impl.exceptions.InvalidInputException;
+import alten.jinterview.interfaces.IChecker;
 
-public class Checker {
+public class Checker implements IChecker {
 	
 	private int lowerBound;
 	private int upperBound;
